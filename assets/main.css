@@ -8,7 +8,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   margin-bottom: -75px;
+=======
+>>>>>>> 5b9581c2e58272947613e46ce3c3ad10002cfc75
 }
 
 .main-logo p {
@@ -257,6 +260,7 @@ body {
   
 }
 
+<<<<<<< HEAD
 .labor-content {
   animation: header-slide linear 1s;
 }
@@ -273,6 +277,8 @@ body {
   animation: header-slide linear 1s;
 }
 
+=======
+>>>>>>> 5b9581c2e58272947613e46ce3c3ad10002cfc75
 .labor-content-reverse > .image {
   display: flex;
   justify-content: center;
