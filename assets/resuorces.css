@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @keyframes header-slide {
     from {
         opacity: 0;
@@ -9,8 +9,6 @@
     }
 }
 
-=======
->>>>>>> 5b9581c2e58272947613e46ce3c3ad10002cfc75
 .recursos-content {
     display: flex;
     justify-content: space-around;
@@ -40,10 +38,9 @@
     align-items: center;
     color: rgb(190, 180, 180);
     font-family: 'Lato', sans-serif;
-<<<<<<< HEAD
+
     animation: header-slide linear 1s;
-=======
->>>>>>> 5b9581c2e58272947613e46ce3c3ad10002cfc75
+
 }
 
 .descarga-item a {
@@ -58,14 +55,14 @@
     align-items: center;
     color: rgb(190, 180, 180);
     font-family: 'Lato', sans-serif;
-<<<<<<< HEAD
+
     animation: header-slide linear 1s;
 }
 
 .video-item:iframe {
     width: 100%;
-=======
->>>>>>> 5b9581c2e58272947613e46ce3c3ad10002cfc75
+
+
 }
 
 
