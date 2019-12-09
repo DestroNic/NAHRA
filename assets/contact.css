@@ -1,0 +1,82 @@
+.content-wrapper > .background > .page-content > .contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding-top: 25px;
+  }
+  
+
+
+/*Left*/
+
+.content-wrapper > .background > .page-content > .contact-wrapper > .contact-left > .contact-left-item {
+    color: #dddddd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content-wrapper > .background > .page-content > .contact-wrapper > .contact-left > .contact-left-item > .contact-left-title i {
+    font-size: 2em;
+}
+
+.content-wrapper > .background > .page-content > .contact-wrapper > .contact-left > .contact-left-item > .left-text a {
+    text-decoration: none;
+    color: #736cb3;
+}
+
+/* Right */
+
+.content-wrapper > .background > .page-content  > .contact-wrapper > .contact-right {
+    margin: auto;
+
+  }
+  
+  .content-wrapper > .background > .page-content > .contact-wrapper > .contact-right > .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #dddddd;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+
+  .contact-form :nth-child(n) { margin-top: 10px;}
+
+  .content-wrapper > .background > .page-content > .contact-wrapper > .contact-right > .contact-form p {
+      width: 80%;
+  }
+
+  .content-wrapper > .background > .page-content > .contact-wrapper > .contact-right > .contact-form input {
+    height: 25px;
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .content-wrapper > .background > .page-content >  .contact-wrapper > .contact-right > .contact-form textarea {
+    resize: none;
+    width: 80%;
+    height: 80px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .content-wrapper > .background > .page-content > .contact-wrapper > .contact-right > .contact-form > .submit-button{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content-wrapper > .background > .page-content > .contact-wrapper > .contact-right > .contact-form button {
+      color: #423a3a;
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      border: #9b9a9a 2px solid;
+      padding: 20px 25px 20px 25px;
+      background: #777777;
+      letter-spacing: 1px;
+      border-radius: 5px;
+      transition: linear 0.5s;
+  }
+  
+  .content-wrapper > .background > .page-content > .contact-wrapper > .contact-right > .contact-form button:hover {
+        background:  rgba(15,20,156,0.6);
+        color: white;
+  }
