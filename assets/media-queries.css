@@ -135,6 +135,7 @@
 
     .home-body {
         margin: auto;
+        margin-top: 100px;
     }
 
     .main-logo {
@@ -145,6 +146,10 @@
     .divider {
         visibility: hidden;
         font-size: 1px;
+    }
+
+    .acronym {
+        margin: -50px 0 -100px 0;
     }
 
 }
