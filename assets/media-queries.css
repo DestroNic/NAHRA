@@ -115,5 +115,36 @@
         flex-direction: column;
     }
 
+    .recursos-body {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .descarga-item {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .video-item  {
+        margin: auto;
+    }
+
+    .video-item:iframe {
+        width: 80%;
+    }
+
+    .home-body {
+        margin: auto;
+    }
+
+    .main-logo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divider {
+        visibility: hidden;
+        font-size: 1px;
+    }
 
 }

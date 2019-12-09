@@ -2,7 +2,39 @@
 
 function inicio(){
     var x = document.getElementsByClassName("page-content");
-    x[0].innerHTML = `<div class='banner'></div>`;
+    x[0].innerHTML = 
+    `<div class="home-content">
+    <div class="main-logo">
+        <div class="acronym">
+            <p>NAHRA</p>
+        </div>
+        <div class="divider">
+            <p>|</p>
+        </div>
+        <div class="nahra-meaning">
+            <p>Nicaraguan American Human Rights Alliance</p>
+        </div>
+    </div>
+    <div class="home-body">
+        <p>NAHRA es una organización nacional dentro de los Estados Unidos, registrada en
+            Washington DC y capítulos regionales en California, Florida y Texas. <br><br>
+            
+            Alianza de individuos y organizaciones comprometidos con los derechos
+            fundamentales de la democracia, garantías constitucionales así como también la
+            protección y preservación de los derechos humanos de cada individuo. <br><br>
+            
+            Nuestro enfoque primordial son los Nicaragüenses buscando refugio en los Estados
+            Unidos, escapando persecución, tortura, ejecución y encarcelación por el solo hecho
+            de aspirar a que exista democracia y libertad en Nicaragua; principios que emanan de
+            las declaraciones universales de derechos humanos.</p>
+    </div>
+
+    <div class="learn-more">
+        <a href="#" onclick="historia()">Leer mas..</a>
+
+    </div><br><br>
+    
+    </div>`;
     var x = document.getElementById('responsive');
     if (x.className === "navigation-items") {
         x.className += " responsive";
@@ -120,6 +152,13 @@ function recursos(){
     var x = document.getElementsByClassName("page-content");
     x[0].innerHTML = `<div class='content-header'><p>Recursos</p></div>
     <hr>
+    <div class="recursos-content">
+      <a href="#" onclick="descarga()">Descargas</a>
+      <a href="#" onclick="videos()">Videos</a>
+    </div>
+    <div class="recursos-body">
+      
+    </div>
     `;
     var x = document.getElementById('responsive');
     if (x.className === "navigation-items") {
@@ -128,6 +167,41 @@ function recursos(){
         x.className = "navigation-items";
     }
 }
+
+function descarga() {
+    var x = document.getElementsByClassName('recursos-body');
+    x[0].innerHTML = `
+    <div class="descarga-item">
+        <h4>Presentacion de NAHRA en Medellin 2019</h4>
+        <p> Presentacion PowerPoint</p>
+        <a href="#"><i class="fas fa-download"></i></a>
+    
+    </div>
+    <div class="descarga-item">
+        <h4>Guia para completar peticion de asilo</h4>
+        <p> Documento PDF</p>
+        <a href="#"><i class="fas fa-download"></i></a>
+    
+    </div>
+    `;
+}
+
+function videos() {
+  var x = document.getElementsByClassName('recursos-body');
+  x[0].innerHTML = `
+  <div class="video-item">
+      <h4>Que son los Derechos Humanos Universales?</h4>
+      <iframe height="315" src="https://www.youtube.com/embed/nDgIVseTkuE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  </div>
+  <div class="video-item">
+      <h4>Historia de los Derechos Humanos</h4>
+      <iframe height="315" src="https://www.youtube.com/embed/6XXGF_V8_7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  </div>
+  `;
+}
+
 
 function contacto(){
     var x = document.getElementsByClassName("page-content");
