@@ -1,3 +1,13 @@
+@keyframes header-slide {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 .recursos-content {
     display: flex;
     justify-content: space-around;
@@ -27,6 +37,7 @@
     align-items: center;
     color: rgb(190, 180, 180);
     font-family: 'Lato', sans-serif;
+    animation: header-slide linear 1s;
 }
 
 .descarga-item a {
@@ -41,6 +52,11 @@
     align-items: center;
     color: rgb(190, 180, 180);
     font-family: 'Lato', sans-serif;
+    animation: header-slide linear 1s;
+}
+
+.video-item:iframe {
+    width: 100%;
 }
 
 

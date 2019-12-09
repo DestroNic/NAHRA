@@ -8,6 +8,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: -75px;
 }
 
 .main-logo p {
@@ -254,6 +255,22 @@ body {
   display: flex;
   justify-content: center;
   
+}
+
+.labor-content {
+  animation: header-slide linear 1s;
+}
+
+.recursos-content {
+  animation: header-slide linear 1s;
+}
+
+.contact-wrapper {
+  animation: header-slide linear 1s;
+}
+
+.home-content {
+  animation: header-slide linear 1s;
 }
 
 .labor-content-reverse > .image {
