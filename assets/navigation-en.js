@@ -2,7 +2,38 @@
 
 function inicio(){
     var x = document.getElementsByClassName("page-content");
-    x[0].innerHTML = `<div class='banner'></div>`;
+    x[0].innerHTML = `
+    <div class="home-content">
+                <div class="main-logo">
+                    <div class="acronym">
+                        <p>NAHRA</p>
+                    </div>
+                    <div class="divider">
+                        <p>|</p>
+                    </div>
+                    <div class="nahra-meaning">
+                        <p>Nicaraguan American Human Rights Alliance</p>
+                    </div>
+                </div>
+                <div class="home-body">
+                    <p>NAHRA is a national Organization in the United Stated, registered in Washington DC
+                        and regional chapters in California, Florida and Texas. <br><br>
+                        
+                        An Alliance of individuals and organizations commited to Democracy Rights fundamentals
+                        , constitutional guarantees also the protection and perseverance of Human Rights of each individual.<br><br>
+                        
+                        Our primary focus are the Nicaraguan seekeing refugee in the United States, scaping from
+                        prosecution, torture, execution and incarceration just because of the aspiration to have liberty
+                        and democracy in Nicaragua, principles source from the universal declaration of Human Rights.</p>
+                </div>
+    
+                <div class="learn-more">
+                    <a href="#" onclick="historia()">Read More..</a>
+    
+                </div><br><br>
+                
+                </div>
+    `;
 }
 
 function historia(){
@@ -92,37 +123,114 @@ function labor(){
 }
 
 function recursos(){
-    var x = document.getElementsByClassName("page-content");
-    x[0].innerHTML = `<div class='content-header'><p>Resources</p></div>`;
+  var x = document.getElementsByClassName("page-content");
+  x[0].innerHTML = `<div class='content-header'><p>Resources</p></div>
+  <hr>
+  <div class="recursos-content">
+    <a href="#" onclick="descarga()">Downloads</a>
+    <a href="#" onclick="videos()">Videos</a>
+  </div>
+  <div class="recursos-body">
+    
+  </div>
+  `;
+  var x = document.getElementById('responsive');
+  if (x.className === "navigation-items") {
+      x.className += " responsive";
+  }   else {
+      x.className = "navigation-items";
+  }
 }
 
-function contacto(){
-    var x = document.getElementsByClassName("page-content");
-    x[0].innerHTML = `<div class='content-header'><p>Contact us</p></div>
-    <div class="contact-wrapper">
-  <div class="contact-left">
-    <p>left</p>
+function descarga() {
+  var x = document.getElementsByClassName('recursos-body');
+  x[0].innerHTML = `
+  <div class="descarga-item">
+      <h4>NAHRA presentation in Medellin 2019</h4>
+      <p> PowerPoint Presentation</p>
+      <a href="#"><i class="fas fa-download"></i></a>
+  
   </div>
-    <div class="contact-right">
-      <div class="contact-form">
-        <input type="text" class="form-input" placeholder="Nombre">
-        <input type="email" class="form-input" placeholder="Correo">          <br><br>
-        <textarea cols=47 rows=5>Mensaje</textarea><br><br>
-        <div class="submit-button">
-          <button type="submit" value="submit">ENVIAR</button>
+  <div class="descarga-item">
+      <h4>Guide to complete asylum petition</h4>
+      <p>PDF Document</p>
+      <a href="#"><i class="fas fa-download"></i></a>
+  
+  </div>
+  `;
+}
+
+function videos() {
+var x = document.getElementsByClassName('recursos-body');
+x[0].innerHTML = `
+<div class="video-item">
+    <h4>What are the Universal Human Rights?</h4>
+    <iframe height="315" src="https://www.youtube.com/embed/nDgIVseTkuE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+<div class="video-item">
+    <h4>History of Human Rights</h4>
+    <iframe height="315" src="https://www.youtube.com/embed/6XXGF_V8_7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+`;
+}
+
+
+function contacto(){
+  var x = document.getElementsByClassName("page-content");
+  x[0].innerHTML = `<div class='content-header'><p>Contact us</p></div>
+  <hr>
+<div class="contact-wrapper">
+    <div class="contact-left">
+      <div class="contact-left-item">
+        <div class="contact-left-title">
+          <i class="far fa-envelope"></i>
+        </div>
+        <div class="left-text">
+          <p>If you are a member of any other organization you can get in touch with us to the email:</p>
+          <a href="mailto:nahra.usa@gmail.com">nahra.usa@gmail.com</a>
+          <p>If you need assistance of NAHRA you can contact us to the following email:<p>
+          <a href="mailto:nahracases@gmail.com">nahracases@gmail.com</a>
         </div>
       </div>
-  </div>
-  
+      <div class="contact-left-item">
+        <div class="contact-left-title">
+          <i class="fab fa-facebook-square"></i>
+        </div>
+        <br>
+        <div class="left-text">
+          <a href="https://www.facebook.com/NahraUSA/">NAHRA Human Rights</a> 
+        </div>
+        </div>
+    </div>
+  <div class="contact-right">
+    <div class="contact-form">
+      <p>If you have any questions, you can send it to us filling out the following contact form</p>
+      <input type="text" class="form-input" placeholder="Name">
+      <input type="email" class="form-input" placeholder="Email">
+      <textarea cols=47 rows=5 placeholder="Message"></textarea>
+      <div class="submit-button">
+        <button type="submit" value="submit">SUBMIT</button>
+      </div>
+    </div>
+</div>
 
-    </div>`;
+
+  </div>`;
+  var x = document.getElementById('responsive');
+  if (x.className === "navigation-items") {
+      x.className += " responsive";
+  }   else {
+      x.className = "navigation-items";
+  }
 }
 
 function responsiveMenu() {
-    var x = document.getElementById('responsive');
-    if (x.className === "navigation-items") {
-        x.className += " responsive";
-    }   else {
-        x.className = "navigation-items";
-    }
+  var x = document.getElementById('responsive');
+  if (x.className === "navigation-items") {
+      x.className += " responsive";
+  }   else {
+      x.className = "navigation-items";
+  }
 }
