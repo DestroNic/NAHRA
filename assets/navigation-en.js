@@ -16,15 +16,18 @@ function inicio(){
                     </div>
                 </div>
                 <div class="home-body">
-                    <p>NAHRA is a national Organization in the United Stated, registered in Washington DC
-                        and regional chapters in California, Florida and Texas. <br><br>
-                        
-                        An Alliance of individuals and organizations commited to Democracy Rights fundamentals
-                        , constitutional guarantees also the protection and perseverance of Human Rights of each individual.<br><br>
-                        
-                        Our primary focus are the Nicaraguan seekeing refugee in the United States, scaping from
-                        prosecution, torture, execution and incarceration just because of the aspiration to have liberty
-                        and democracy in Nicaragua, principles source from the universal declaration of Human Rights.</p>
+                    <p>NAHRA is a 501(c)(3) nonprofit organization that promotes and defends the human rights of Nicaraguan migrants and refugees who had to flee their home country due to persecution.
+                    </p>
+                      <p>Government repression and human rights violations in Nicaragua since April 2018 forced 60,000+ people to flee violence and seek refuge in other countries, mainly neighboring Costa Rica and the United States. </p>
+                      <p>
+                      The ZERO TOLERANCE policy and anti-immigration sentiments have contributed to the <strong>REVICTIMIZATION</strong> of those affected by the genocide in Nicaragua.
+                      </p>
+                      <p>Immigrants in deportation proceedings do not have the right to free representation. Without a lawyer, many will likely lose their case and be sent back to the nightmare they were escaping. For many, deportation is the equivalent of illegal incarceration or worse, a death sentence.
+                      </p>
+                      <h3>Become a Volunteer</h3>
+                      <p>
+                      Volunteers are the backbone of the work we do. Ongoing volunteer opportunities include assisting asylum seekers in filling out paperwork, preparing translations, interpreting, visiting detained asylum seekers and lending your talents for various administrative tasks in the organization. You decide the amount of time and the activities in which you would like to collaborate.  We need you in order to be able to continue to assist the vulnerable population we serve. 
+                      </p>
                 </div>
     
                 <div class="learn-more">
@@ -34,48 +37,37 @@ function inicio(){
                 
                 </div>
     `;
+    responsiveMenu();
 }
 
 function historia(){
     var x = document.getElementsByClassName("page-content");
-    x[0].innerHTML = `<div class='content-header'><p>History</p></div>
+    x[0].innerHTML = `<div class='content-header'><p>About Us</p></div>
     <hr>
     <div class="history-content">
   <div class="history-title">
-    <h4>NAHRA Beginnings</h4>
+    <h4>Our Beginnings</h4>
   </div>
   <div class="history-detail">
-    <p>After the deportation of 60 of Nicaraguans at the beginning of 2019, we saw the need for a more structured approach to the Nicaraguan immigration issue.</p>
-    <p>Born out of the need to help Nicaraguan refugees seeking asylum in the U.S. and other countries in the region.</p>
-    <p>Sharing experiences of support for cases in different countries, we realized the magnitude of the issue and the importance of continuing to work at the national level under the umbrella of one organization.</p>
-    <p>Approximately 30+ volunteers ‘autoconvocados’ and members of different organizations in the U.S. met in DC in February 2019 and elaborated a plan of action.</p>
-    </div>
+  <p>
+    NAHRA was born out of the need to coordinate efforts to assist Nicaraguan refugees seeking asylum in the United States and in other countries in the Americas. The deportation of 60 Nicaraguans in early 2019 that had fled the country escaping persecution evidenced the need for a structured approach to the Nicaraguan immigration and humanitarian crisis.
+    In February of 2019 over 30 independent volunteers and members of different organizations who were working on various issues related to the Nicaraguan crisis met in Washington D.C. Sharing experiences of support for cases in different countries, we realized the magnitude of the issue and the importance of continuing to work at the national level under the umbrella of one organization. As a result, we elaborated an action plan and strategy to cooperate and unite our efforts.
+    NAHRA was formally registered as a non-profit organization in Washington D.C. in May of 2019. 
+  </p>  
+  </div>
   </div>
   <hr>
   <div class="history-content">
   <div class="history-title">
-    <h4>We advocte for:</h4>
+    <h4>Who We Are</h4>
   </div>
   <div class="history-detail">
-    <p>Moratorium of deportations from the U.S. until constitutional guarantees exist in  Nicaragua.</p>
-    <p>Establishment of a standard process within the immigrations courts in the U.S. </p>
-    <p>Waive of bonds for refugees that have qualified as asylum applicants.</p>
-    <p>Adjust and designate the status of temporal protection for Nicaraguans in the U.S.</p>
-    <p>Allow human rights organizations such as NAHRA to visit detentions centers and accompany the cases of nicaraguan detainees.</p>
-    <p>Such deportation be the last resort, allow deportation to a third country.</p>
+   <p> 
+    NAHRA is a 501(c)(3) nonprofit organization that defends and promotes the human rights and welfare of Nicaraguan immigrants and refugees in the United States and worldwide. 
+    We consist of an alliance of individuals and organizations committed to the fundamental principles of democracy, constitutional guarantees and the protection and preservation of individual human rights. We are a national organization in the United States with chapters in Florida, Virginia, New York, Indiana, Texas, California and Arizona.
+    Our prime focus is to assist Nicaraguans seeking refuge and asylum in the United States, those escaping persecution, torture, execution and incarceration solely for aspiring to have a democratic and free country; principles contained in universal human rights declarations. We want to help individuals and families to overcome the hardships posed by exile and to see them thrive in their communities.
+   </p>
   </div>
-</div>
-<hr>
-<div class="history-content">
-<div class="history-title">
-  <h4>Who we are</h4>
-</div>
-<div class="history-detail">
-  <p>NAHRA  is a national organization in the United States, registered in Washington DC, with chapters in California/Arizona, Florida and Texas.  <br><br>
-  NAHRA consists of an alliance of individuals and organizations committed to the fundamental rights of democracy, constitutional guarantees, as well as the protection and preservation of individual human rights. <br><br>
-  Our prime focus is to support Nicaraguans seeking refuge and asylum in to the United States, those scaping persecution, torture, execution and incarceration solely for aspiring to have a democratic and free country; principles contained in universal human rights declarations. </p>
-  
-</div>
 </div>
 <hr>
 <div class="history-content">
@@ -83,12 +75,15 @@ function historia(){
   <h4>Our Mission</h4>
 </div>
 <div class="history-detail">
-  <p>Support and defend in all of our actions, programs and strategies, the basic principles of human rights as stated in the Human Rights Declaration of the United Nations and the Inter-American System.</p>
-  <p>Committed with the fundamental principles of democracy, constitutional guarantees, protection and preservation of individual human rights.</p>
-  <p>We are guided by our love for our Nicaraguan brothers and sisters currently seeking asylum in the United States and we work to defend their human and constitutional rights.</p>
-  <p>We are committed to the welfare of all refugees and their families and to the protection of their constitutional rights within the United States and to promote their rights to have the economic, educational and social opportunities so that they become fully functional and productive members of society.</p>
-  </div>
+   <p> 
+    We support and defend in all of our actions, programs and strategies, the basic principles of human rights as stated in the Human Rights Declaration of the United Nations and the Inter-American System.
+    We are committed with the fundamental principles of democracy, constitutional guarantees, protection and preservation of individual human rights.
+    We are guided by our love for our Nicaraguan brothers and sisters currently seeking asylum in the United States and we work to defend their human and constitutional rights. 
+    We are committed to the welfare of all refugees and their families and to the protection of their constitutional rights within the United States and to promote their rights to have economic, educational and social opportunities so that they become fully functional and productive members of society.  
+  </p>
+</div>
 </div>`;
+responsiveMenu();
 }
 
 function labor(){
@@ -120,61 +115,106 @@ function labor(){
     </div>
   </div>
     `;
+    responsiveMenu();
 }
 
-function recursos(){
+function howToHelp(){
   var x = document.getElementsByClassName("page-content");
-  x[0].innerHTML = `<div class='content-header'><p>Resources</p></div>
+  x[0].innerHTML = `<div class='content-header'><p>How to Help</p></div>
   <hr>
-  <div class="recursos-content">
-    <a href="#" onclick="descarga()">Downloads</a>
-    <a href="#" onclick="videos()">Videos</a>
+  <div class='ayuda-header'>
+    <p>NAHRA needs your support to be able to continue assisting the vulnerable population that we serve. Here are some ways in which you can make a difference!
+    </p>
   </div>
-  <div class="recursos-body">
+
+  <div class="ayuda-content">
+    
+    <div class='ayuda-item'>
+      <img src='../images/volunteer.jpg' alt='image'>
+      <h3>
+        Volunteer
+      </h3>
+      <p>
+      Volunteers are the backbone of the work we do. Ongoing volunteer opportunities include assisting asylum seekers in filling out paperwork, preparing translations, interpreting, visiting detained asylum seekers and lending your talents for various administrative tasks in the organization. You decide the amount of time and the activities in which you would like to collaborate.  We need you in order to be able to continue to assist the vulnerable population we serve. 
+      </p>
+    </div>
+    <div class='ayuda-item'>
+      <img src='../images/informed.jpg' alt='image'>
+      <h3>
+        Stay informed
+      </h3>
+      <p>
+      Join our mailing list to stay informed about the work we are doing, the latest issues facing immigrants in our community, and to learn how you can join the fight to protect and promote immigrants’ rights.
+      </p>
+    </div>
+    <div class='ayuda-item'>
+      <img src='../images/mentor.jpg' alt='image'>
+      <h3>
+        Become a Mentor
+      </h3>
+      <p>
+      Asylum seekers and refugees face many challenges to integrate into a new country and community. Having someone whom to ask basic questions about life in the U.S. and who can guide them through various issues is very helpful. 
+      </p>
+    </div>
+    <div class='ayuda-item'>
+      <img src='../images/share.jpg' alt='image'>
+      <h3>
+        Share Our Story
+      </h3>
+      <p>
+      Follow us on social media to join the conversation and inform others about these pressing issues. 
+      </p>
+    </div>
+    <div class='ayuda-item'>
+      <img src='../images/donate.jpg' alt='image'>
+      <h3>
+        Donate
+      </h3>
+      <p>
+      When you donate to NAHRA your gift is directly assisting asylum seekers to achieve release from detention centers and refugees to receive basic assistance to survive. 
+      </p>
+    </div>
     
   </div>
-  `;
-  var x = document.getElementById('responsive');
-  if (x.className === "navigation-items") {
-      x.className += " responsive";
-  }   else {
-      x.className = "navigation-items";
-  }
-}
-
-function descarga() {
-  var x = document.getElementsByClassName('recursos-body');
-  x[0].innerHTML = `
-  <div class="descarga-item">
-      <h4>NAHRA presentation in Medellin 2019</h4>
-      <p> PowerPoint Presentation</p>
-      <a href="#"><i class="fas fa-download"></i></a>
   
-  </div>
-  <div class="descarga-item">
-      <h4>Guide to complete asylum petition</h4>
-      <p>PDF Document</p>
-      <a href="#"><i class="fas fa-download"></i></a>
-  
-  </div>
   `;
+  responsiveMenu();
 }
 
-function videos() {
-var x = document.getElementsByClassName('recursos-body');
-x[0].innerHTML = `
-<div class="video-item">
-    <h4>What are the Universal Human Rights?</h4>
-    <iframe height="315" src="https://www.youtube.com/embed/nDgIVseTkuE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+// function descarga() {
+//   var x = document.getElementsByClassName('recursos-body');
+//   x[0].innerHTML = `
+//   <div class="descarga-item">
+//       <h4>NAHRA presentation in Medellin 2019</h4>
+//       <p> PowerPoint Presentation</p>
+//       <a href="#"><i class="fas fa-download"></i></a>
+  
+//   </div>
+//   <div class="descarga-item">
+//       <h4>Guide to complete asylum petition</h4>
+//       <p>PDF Document</p>
+//       <a href="#"><i class="fas fa-download"></i></a>
+  
+//   </div>
+//   `;
+// }
 
-</div>
-<div class="video-item">
-    <h4>History of Human Rights</h4>
-    <iframe height="315" src="https://www.youtube.com/embed/6XXGF_V8_7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+// function videos() {
+// var x = document.getElementsByClassName('recursos-body');
+// x[0].innerHTML = `
+// <div class="video-item">
+//     <h4>What are the Universal Human Rights?</h4>
+//     <iframe height="315" src="https://www.youtube.com/embed/nDgIVseTkuE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</div>
-`;
-}
+// </div>
+// <div class="video-item">
+//     <h4>History of Human Rights</h4>
+//     <iframe height="315" src="https://www.youtube.com/embed/6XXGF_V8_7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+// </div>
+// `;
+
+// }
 
 
 function contacto(){
@@ -218,12 +258,7 @@ function contacto(){
 
 
   </div>`;
-  var x = document.getElementById('responsive');
-  if (x.className === "navigation-items") {
-      x.className += " responsive";
-  }   else {
-      x.className = "navigation-items";
-  }
+  responsiveMenu();
 }
 
 function responsiveMenu() {

@@ -39,6 +39,12 @@ body {
   text-align: justify;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.home-body h3 {
+  text-align: center;
 }
 
 .learn-more {
@@ -309,4 +315,49 @@ body {
   font-family: 'Montserrat', sans-serif;
   padding: 50px;
   font-size: 35px;
+}
+
+
+/* Contenido How to Help */
+
+.ayuda-header {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  animation: content-slide 1.5s ease-in;
+}
+
+.ayuda-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0 15px;
+  animation: content-slide 2s ease-in;
+}
+
+.ayuda-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.ayuda-item img {
+  height: auto;
+  width: 100%;
+
+}
+
+.ayuda-item h3 {
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+.ayuda-item p {
+  color: white;
+  padding: 0 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
